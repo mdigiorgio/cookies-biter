@@ -8,5 +8,7 @@ WHERE baseDomain LIKE 'alitalia%' OR
 	  baseDomain LIKE 'blue%air%' OR
 	  baseDomain LIKE 'lufthansa%' OR
 	  baseDomain LIKE 'airfrance%' OR
-	  baseDomain LIKE 'airberlin%'
+	  baseDomain LIKE 'airberlin%' OR
+	  baseDomain LIKE 'skyscanner%' OR
+	  baseDomain LIKE 'kayak%'
 	;
