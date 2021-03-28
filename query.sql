@@ -1,14 +1,14 @@
 DELETE FROM moz_cookies
-WHERE baseDomain LIKE 'alitalia%' OR
-	  baseDomain LIKE 'easyjet%' OR
-	  baseDomain LIKE 'ryanair%' OR
-	  baseDomain LIKE 'norwegian%' OR
-	  baseDomain LIKE 'volagratis%' OR
-	  baseDomain LIKE 'edreams%' OR
-	  baseDomain LIKE 'blue%air%' OR
-	  baseDomain LIKE 'lufthansa%' OR
-	  baseDomain LIKE 'airfrance%' OR
-	  baseDomain LIKE 'airberlin%' OR
-	  baseDomain LIKE 'skyscanner%' OR
-	  baseDomain LIKE 'kayak%'
+WHERE host LIKE 'alitalia%' OR
+	  host LIKE 'easyjet%' OR
+	  host LIKE 'ryanair%' OR
+	  host LIKE 'norwegian%' OR
+	  host LIKE 'volagratis%' OR
+	  host LIKE 'edreams%' OR
+	  host LIKE 'blue%air%' OR
+	  host LIKE 'lufthansa%' OR
+	  host LIKE 'airfrance%' OR
+	  host LIKE 'airberlin%' OR
+	  host LIKE 'skyscanner%' OR
+	  host LIKE 'kayak%'
 	;
